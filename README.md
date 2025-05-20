@@ -7,7 +7,7 @@ export MLFLOW_S3_ENDPOINT_URL=
 
 mlflow server \
   --backend-store-uri sqlite:///mlflow.db \
-  --default-artifact-root s3://qhung-llm-mlflow/mlflow-artifacts \
+  --default-artifact-root \
   --host 0.0.0.0 \
   --port 5000
 ```
